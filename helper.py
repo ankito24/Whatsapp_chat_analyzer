@@ -1,3 +1,9 @@
+from urlextract import URLExtract
+extract= URLExtract()
+
+from wordcloud import WordCloud
+import pandas as pd
+from collections import Counter
 
 def fetch_data(selected_user,df):
     if selected_user != "Overall":

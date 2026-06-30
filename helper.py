@@ -19,7 +19,18 @@ def fetch_data(selected_user,df):
     #fetch num of media messages
     num_media_messages= df[df['message']== '<Media omitted>\n'].shape[0]
 
-    return num_messages, len(words), num_media_messages
+    #fetch number of links
+    links = []
+
+    for message in df['message']:
+        links.extend(extract.find_urls(message))
+
+    return num_messages, len(words), num_media_messages, len(links)
+
+def most_busy_user(df):
+    x = df['user'].value_counts().head()
+    df = round((df['user'].value_counts() / df.shape[0]) * 100, 2).reset_index().rename(columns={'count': 'percent'})
+    return x,df
 
 
     #     # fetch no. of messages

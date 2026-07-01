@@ -19,7 +19,7 @@ Emoji Analysis — Emoji usage stats with pie chart
 **How to Use**
 
 
-Open the app: https://whatsappchatanalyzer-ankit29.streamlit.app/
+Open the app: (https://whatsappchatanalyzer-ankit29.streamlit.app/)
 Export your WhatsApp chat:
 
 Open any chat in WhatsApp

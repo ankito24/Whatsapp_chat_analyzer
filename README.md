@@ -3,7 +3,7 @@ WhatsApp Chat Analyzer
 A powerful and interactive web app to analyse your WhatsApp chats — built with Python and Streamlit.
 
 🔗 Live App: https://whatsappchatanalyzer-ankit29.streamlit.app/
-https://whatsappchatanalyzer-ankit29.streamlit.app/
+[https://whatsappchatanalyzer-ankit29.streamlit.app/](https://whatsappchatanalyzer-ankit29.streamlit.app/)
 
 **Features**
 
